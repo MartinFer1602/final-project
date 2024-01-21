@@ -1,0 +1,26 @@
+.formulario {
+  padding: 5rem;
+  background-color: rgb(158, 224, 202);
+  padding-top: 20px;
+  padding: 60px 0px;
+  display: flex;
+  flex-direction: column;
+  border: 12px solid rgb(158, 224, 202);
+}
+.formulario h2 {
+  text-align: center;
+}
+.formulario p {
+  color: brown;
+}
+
+.container-submit button {
+  background-color: goldenrod;
+  width: 100px;
+  border: 0;
+}
+
+.container-email,
+.container-msm {
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=Formulario.css.map */

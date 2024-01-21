@@ -1,0 +1,97 @@
+.providers-container {
+  position: relative;
+}
+
+h5 {
+  position: absolute;
+  top: -75%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.slider {
+  width: 920px;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slide img {
+  width: 80%;
+  height: 60%;
+}
+
+.slides {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  transition: all 0.5s ease;
+}
+
+.slides .slide {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 200px;
+  height: 200px;
+  margin-right: 15px;
+  margin-left: 15px;
+  border-radius: 10px;
+  background: #eee;
+  transition: transform 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  transform: translateX(0px);
+}
+
+.slider .btn-prev,
+.slider .btn-next {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: white;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(17, 17, 17, 0.15);
+  cursor: pointer;
+}
+
+.slider .btn-prev {
+  left: -15px;
+}
+
+.slider .btn-next {
+  right: -15px;
+}
+
+.slider .btn-prev:after,
+.slider .btn-next:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid red;
+  border-right: 1px solid red;
+}
+
+.slider .btn-prev:after {
+  left: 50%;
+  top: 50%;
+  transform-origin: top right;
+  transform: rotate(-135deg) translate(100%, -100%);
+}
+
+.slider .btn-next:after {
+  left: 50%;
+  top: 50%;
+  transform-origin: top right;
+  transform: rotate(45deg) translate(-25%, 50%);
+}/*# sourceMappingURL=Providers.css.map */

@@ -1,0 +1,58 @@
+.collapse {
+    display: flex;
+    justify-content: end;
+    background-color: rgb(118, 196, 73);
+    padding: 0.5rem;
+}
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(118, 196, 73);
+}
+
+.nav-link {
+    margin-right: 1.5rem;
+}
+.loginIcon {
+    width: 40px;
+    text-align: center;
+    
+}
+.navbar-nav {
+
+}
+.logo {
+    margin-left: 1rem;
+    margin-top:  1rem;
+    margin-bottom: 1rem;
+    width: 6rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+}
+.navbar-toggler {
+    width: 4rem;
+    height: 4rem;
+}
+.navbar-toggler-icon {
+    width: 2rem;
+}
+
+  
+.nav-link:hover {
+    background-color: #5693d4; 
+     
+    border-radius: 5px;
+}
+  
+
+.nav-link.active {
+    background-color: #5693d4;
+    border-radius: 5px;
+    text-align: center;
+}
+.navbar-nav {
+    border: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+}

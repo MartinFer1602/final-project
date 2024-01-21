@@ -1,0 +1,30 @@
+.container__hero2 {
+  display: flex;
+  justify-content: space-between;
+}
+.container__hero2-text h1 {
+  color: rgb(255, 174, 0);
+  max-width: 400px;
+  margin-left: 7rem;
+}
+.container__hero2-text p {
+  font-size: 1.2rem;
+  color: cadetblue;
+  max-width: 500px;
+  margin-left: 7rem;
+}
+.container__hero2 button {
+  display: block;
+  width: 18rem;
+  height: 3rem;
+  border: 0;
+  font-size: 1.4rem;
+  background-color: #2bd156;
+  margin: 100px 100px 0px 0px;
+  transition: transform 0.8s ease;
+  animation: auto-scale 3s infinite;
+  margin-left: 2rem;
+}
+.container__hero2 button:hover {
+  transform: scale(1.2);
+}/*# sourceMappingURL=Hero2.css.map */

@@ -1,0 +1,19 @@
+/* .container-button {
+    display: flex;
+    justify-content: space-around;
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2px;
+        background-color: red;
+        border: none;
+    }
+} */
+.informationMore__button {
+  background-color: rgb(228, 125, 125);
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 4px;
+}/*# sourceMappingURL=InformationMore.css.map */

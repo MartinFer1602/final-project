@@ -1,0 +1,29 @@
+.us__content {
+    display: flex;
+    align-items: center;
+    padding-bottom: 200px;
+    p {
+        border: 5px solid burlywood;
+        background-color: rgb(245, 242, 242);
+    }
+}
+.us__image {
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 25rem;
+    
+}
+.us__img-icono {
+    width: 200px;
+    padding-bottom: 30px;
+}
+@media (max-width: 768px) {
+    .us__content {
+        display: flex;
+        flex-direction: column;
+    }
+    .us__content p {
+        border: 5px solid burlywood;
+        padding-top: 10px;
+    }
+}

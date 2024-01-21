@@ -1,0 +1,45 @@
+.card-body {
+    padding: 50px;
+    button {
+        border: 0;
+        background-color: rgb(226, 26, 66);
+        color: white;
+        padding: 5px 20px;
+        border-radius: 5px;
+    }
+}
+.img__llantas {
+    width: 300px;
+    height: 350px;
+
+}
+.container {
+    margin-bottom: 10px;
+    background-color: rgb(97, 167, 247);
+}
+
+
+@media (min-width: 480px) {
+    .card-allbody {
+        width: 300px;
+        height: 350px;
+    }
+    
+
+}
+@media (min-width: 768px) {
+    .card img {
+        width: 300px;
+        height: 350px;
+    }
+    
+
+}
+@media (min-width: 1024px) {
+    .card img {
+        width: 300px;
+        height: 350px;
+    }
+    
+
+  }
